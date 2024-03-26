@@ -1,6 +1,6 @@
 ## A Parallel Synchronous Execution Engine and Target Language for Digital Microfluidics
 
-This repository contains additional material referenced in the paper.
+This repository contains additional material referenced in the paper for review purposes.
 
 ## Study case video
 
