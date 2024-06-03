@@ -27,13 +27,10 @@ move_D1:
   SETELI 50;
   TICK;
   CLRELI 50;
-  SETELI 51;
+  SETELI 59;
   TICK;
-  CLRELI 51;
-  SETELI 60;
-  TICK;
-  CLRELI 60;
-  SETELI 69;
+  CLRELI 59;
+  SETELI 68;
   BARR 0 3;
   TSTOP;
   TICK;
@@ -85,7 +82,7 @@ merge_mix_D1_D2:
   LI max_cnt 5;
 loop:
   BEQ loop_end cnt max_cnt;
-  CLRELI 78;
+  CLRELI 68;
   SETELI 69;
   TICK;
   CLRELI 69;
@@ -107,12 +104,16 @@ loop:
   SETELI 87;
   TICK;
   CLRELI 87;
-  SETELI 78;
+  SETELI 86;
+  TICK;
+  CLRELI 86;
+  SETELI 77;
+  TICK;
+  CLRELI 77;
+  SETELI 68;
   TICK;
   ADDI cnt cnt 1;
   JI loop;
 loop_end:
-  CLRELI 78;
-  SETELI 69;
   TSTOP;
   TICK;
